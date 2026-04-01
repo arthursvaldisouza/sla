@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif; /* Font family */
+    font-size: 20px; /* O tamanho da fonte principal */
+    background-color: #7d00eb; /* A cor do plano de fundo da página */
+    color: #000000; /* A cor do texto */
+}
+
+h1 {
+    color: #00a800; /* A cor do cabeçalho */
+    font-size: 100px; /* A cor da fonte do cabeçalho */
+    font-family: Georgia, serif; /* A font usada no cabeçalho */
+}
+
+h1 {
+    animation: color-change 3s infinite;
+}
+
+@keyframes color-change {
+    0% {
+        color: rgb(47, 0, 255);
+    }
+    50% {
+        color: rgb(193, 18, 220);
+    }
+    100% {
+        color: rgb(255, 0, 115);
+    }
+}
